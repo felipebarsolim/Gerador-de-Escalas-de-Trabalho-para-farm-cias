@@ -1,8 +1,8 @@
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
-dotenv.config();
+// dotenv.config();
 
-const BASE_URL = process.env.BASE_URL || "http://localhost:8989";
+const BASE_URL = "http://localhost:8989";
 
 /**
  *Cria uma requisição para uma URl
