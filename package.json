@@ -1,0 +1,25 @@
+{
+    "name": "proj",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test_frontend": "vitest ./frontend",
+        "test_backend": "vitest ./backend",
+        "dev": "nodemon ./backend/server/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "nodemon": "^3.1.14",
+        "vitest": "^4.1.5"
+    },
+    "dependencies": {
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "pg": "^8.20.0",
+        "zod": "^4.4.3"
+    }
+}
